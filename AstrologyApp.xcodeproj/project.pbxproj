@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE157DFE770B3D4F77D6F21 /* Pods_AstrologyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A67CF8BD7BAAC9DC95AC00 /* Pods_AstrologyApp.framework */; };
+		C49090D92548820D00BA9906 /* AstroDetailsCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49090D82548820D00BA9906 /* AstroDetailsCall.swift */; };
+		C49090E3254891EF00BA9906 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49090E2254891EF00BA9906 /* Utilities.swift */; };
+		C49090E62548BD1E00BA9906 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49090E52548BD1E00BA9906 /* ResultViewController.swift */; };
 		C4E838AC2547644C0066774B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838AB2547644C0066774B /* AppDelegate.swift */; };
 		C4E838AE2547644C0066774B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838AD2547644C0066774B /* SceneDelegate.swift */; };
 		C4E838B02547644C0066774B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838AF2547644C0066774B /* ViewController.swift */; };
 		C4E838B32547644C0066774B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E838B12547644C0066774B /* Main.storyboard */; };
 		C4E838B52547644E0066774B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E838B42547644E0066774B /* Assets.xcassets */; };
 		C4E838B82547644E0066774B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E838B62547644E0066774B /* LaunchScreen.storyboard */; };
+		C4E838C5254765600066774B /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838C4254765600066774B /* NetworkCall.swift */; };
+		C4E838C9254769D30066774B /* AuthenticationConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838C8254769D30066774B /* AuthenticationConstant.swift */; };
+		C4E838D125476F230066774B /* AstroDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838D025476F230066774B /* AstroDetailsModel.swift */; };
+		C4E838D5254776480066774B /* AstroDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E838D4254776480066774B /* AstroDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2557BB0C616742F33C80D861 /* Pods-AstrologyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrologyApp.release.xcconfig"; path = "Target Support Files/Pods-AstrologyApp/Pods-AstrologyApp.release.xcconfig"; sourceTree = "<group>"; };
+		80D3C5EC12E3C94D9EB6DE05 /* Pods-AstrologyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstrologyApp.debug.xcconfig"; path = "Target Support Files/Pods-AstrologyApp/Pods-AstrologyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C49090D82548820D00BA9906 /* AstroDetailsCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDetailsCall.swift; sourceTree = "<group>"; };
+		C49090E2254891EF00BA9906 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C49090E52548BD1E00BA9906 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C4E838A82547644C0066774B /* AstrologyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstrologyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E838AB2547644C0066774B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E838AD2547644C0066774B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,11 @@
 		C4E838B42547644E0066774B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E838B72547644E0066774B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E838B92547644E0066774B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E838C4254765600066774B /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		C4E838C8254769D30066774B /* AuthenticationConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationConstant.swift; sourceTree = "<group>"; };
+		C4E838D025476F230066774B /* AstroDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDetailsModel.swift; sourceTree = "<group>"; };
+		C4E838D4254776480066774B /* AstroDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDetailsViewModel.swift; sourceTree = "<group>"; };
+		F9A67CF8BD7BAAC9DC95AC00 /* Pods_AstrologyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstrologyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE157DFE770B3D4F77D6F21 /* Pods_AstrologyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00956D9DC8B2CC368131F69D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80D3C5EC12E3C94D9EB6DE05 /* Pods-AstrologyApp.debug.xcconfig */,
+				2557BB0C616742F33C80D861 /* Pods-AstrologyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE346177838467C06DE2491A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A67CF8BD7BAAC9DC95AC00 /* Pods_AstrologyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49090DB2548828400BA9906 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4E838AF2547644C0066774B /* ViewController.swift */,
+				C49090E52548BD1E00BA9906 /* ResultViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C49090DC2548828D00BA9906 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C4E838AB2547644C0066774B /* AppDelegate.swift */,
+				C4E838AD2547644C0066774B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C49090E025488D5E00BA9906 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C49090E2254891EF00BA9906 /* Utilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C4E8389F2547644C0066774B = {
 			isa = PBXGroup;
 			children = (
 				C4E838AA2547644C0066774B /* AstrologyApp */,
 				C4E838A92547644C0066774B /* Products */,
+				00956D9DC8B2CC368131F69D /* Pods */,
+				AE346177838467C06DE2491A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,44 @@
 		C4E838AA2547644C0066774B /* AstrologyApp */ = {
 			isa = PBXGroup;
 			children = (
-				C4E838AB2547644C0066774B /* AppDelegate.swift */,
-				C4E838AD2547644C0066774B /* SceneDelegate.swift */,
-				C4E838AF2547644C0066774B /* ViewController.swift */,
+				C49090E025488D5E00BA9906 /* Extensions */,
+				C49090DC2548828D00BA9906 /* Delegates */,
+				C49090DB2548828400BA9906 /* View */,
+				C4E838D32547762F0066774B /* ViewModel */,
+				C4E838CF25476EBF0066774B /* Model */,
+				C4E838C3254765530066774B /* Service */,
 				C4E838B12547644C0066774B /* Main.storyboard */,
 				C4E838B42547644E0066774B /* Assets.xcassets */,
 				C4E838B62547644E0066774B /* LaunchScreen.storyboard */,
 				C4E838B92547644E0066774B /* Info.plist */,
 			);
 			path = AstrologyApp;
+			sourceTree = "<group>";
+		};
+		C4E838C3254765530066774B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C4E838C4254765600066774B /* NetworkCall.swift */,
+				C4E838C8254769D30066774B /* AuthenticationConstant.swift */,
+				C49090D82548820D00BA9906 /* AstroDetailsCall.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C4E838CF25476EBF0066774B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4E838D025476F230066774B /* AstroDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4E838D32547762F0066774B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4E838D4254776480066774B /* AstroDetailsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4E838BC2547644E0066774B /* Build configuration list for PBXNativeTarget "AstrologyApp" */;
 			buildPhases = (
+				64702C6586525B7D97D0DD58 /* [CP] Check Pods Manifest.lock */,
 				C4E838A42547644C0066774B /* Sources */,
 				C4E838A52547644C0066774B /* Frameworks */,
 				C4E838A62547644C0066774B /* Resources */,
+				00D2E06DEB3F40223A815E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +227,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D2E06DEB3F40223A815E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstrologyApp/Pods-AstrologyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstrologyApp/Pods-AstrologyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstrologyApp/Pods-AstrologyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64702C6586525B7D97D0DD58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstrologyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4E838A42547644C0066774B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +276,13 @@
 			files = (
 				C4E838B02547644C0066774B /* ViewController.swift in Sources */,
 				C4E838AC2547644C0066774B /* AppDelegate.swift in Sources */,
+				C4E838C5254765600066774B /* NetworkCall.swift in Sources */,
+				C4E838C9254769D30066774B /* AuthenticationConstant.swift in Sources */,
+				C49090D92548820D00BA9906 /* AstroDetailsCall.swift in Sources */,
+				C49090E62548BD1E00BA9906 /* ResultViewController.swift in Sources */,
+				C4E838D5254776480066774B /* AstroDetailsViewModel.swift in Sources */,
+				C49090E3254891EF00BA9906 /* Utilities.swift in Sources */,
+				C4E838D125476F230066774B /* AstroDetailsModel.swift in Sources */,
 				C4E838AE2547644C0066774B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +427,7 @@
 		};
 		C4E838BD2547644E0066774B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D3C5EC12E3C94D9EB6DE05 /* Pods-AstrologyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +446,7 @@
 		};
 		C4E838BE2547644E0066774B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2557BB0C616742F33C80D861 /* Pods-AstrologyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
